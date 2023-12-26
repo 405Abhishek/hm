@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0c55b159cbfafe1f0"  # Amazon Linux 2 AMI, replace with your desired AMI
+  ami           = "ami-079db87dc4c10ac91"  # Amazon Linux 2 AMI, replace with your desired AMI
   instance_type = "t2.micro"                # Replace with your desired instance type
 
   tags = {
